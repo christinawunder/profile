@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+body {
+  color: #233142;
+  background-color: #e9e4e6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  color: #233142;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #014441;
+  font-weight: bold
+}
+
+a:visited {
+  color: #233142;
+}
+
+.image_circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  border-radius: 15px;
+  box-shadow: 3px, 3px, 3px;
+  width: 600px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border: 5px solid color: #f2eee0;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.card_with_pic {
+  font-weight: bold;
+  color: white;
+  width: 220px;
+  padding: 15px;
+  margin: 15px auto;
+  text-align: center;
+  list-style: none;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 220px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 200px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 120px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+.font_awesome {
+  font-size: 40px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
